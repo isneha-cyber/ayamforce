@@ -147,7 +147,7 @@ const Forward = () => {
     {
       number: '03',
       title: 'Global Manufacturing Partnerships',
-      description: "Since 1997, we've been manufacturing engines and axles for Mercedes-Benz India. Our dedicated facility in Pune produces 4-cylinder and V6 gasoline/diesel engines, supporting the entire range of Mercedes-Benz cars and SUVs made in India.",
+      description: "Since 1997, we've been manufacturing engines and axles for Mercedes-Benz India. Our dedicated facility in Pune produces 4-cylinder and V6 gasoline/diesel engines.",
       image: '/Images/img9.webp'
     },
     {

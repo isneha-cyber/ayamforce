@@ -19,7 +19,7 @@ export default function UrbaniaFooter() {
   }, []);
 
   return (
-    <footer
+    <footer id="contact"
       ref={footerRef}
       className="bg-[#1a1a1a] text-white px-6 md:px-12 lg:px-20 py-12"
     >
@@ -28,7 +28,7 @@ export default function UrbaniaFooter() {
         {/* Logo Section */}
         <div className="fade-in">
           <h2 className="text-3xl md:text-4xl font-bold tracking-wider mb-1">
-            Ayam Force
+            Aayam Force
           </h2>
           <p className="text-xs md:text-sm tracking-[0.3em] text-gray-400 uppercase">
             Travel World Class
@@ -52,11 +52,11 @@ export default function UrbaniaFooter() {
             </h3>
             <a
               href="mailto:
-manager.aayampkr@gmail.com"
+manager.aAayampkr@gmail.com"
               className="text-sm md:text-base hover:text-gray-300 transition-colors block mb-4"
             >
               
-manager.aayampkr@gmail.com
+manager.aAayampkr@gmail.com
             </a>
             <p className="text-xs md:text-sm text-gray-400 leading-relaxed">
               Force Motors Limited, Kathmandu - Nepal
@@ -66,21 +66,39 @@ manager.aayampkr@gmail.com
 
         {/* Explore Urbania Section */}
         <div className="fade-in">
-          <h3 className="text-xs md:text-sm tracking-wider text-gray-400 uppercase mb-6">
-            Explore Ayam
+          <h3 className="text-xs md:text-sm tracking-wider text-gray-400 uppercase mb-4">
+            Explore Aayam Force
           </h3>
-          <nav className="space-y-4">
+          <nav className="space-y-2 text-gray-200">
             <a
               href="#"
               className="block text-sm md:text-base hover:text-gray-300 transition-colors"
             >
-            Vechiles
+            Force Traveller
             </a>
             <a
               href="#"
               className="block text-sm md:text-base hover:text-gray-300 transition-colors"
             >
-              Price
+             Force Tarx
+            </a>
+            <a
+              href="#"
+              className="block text-sm md:text-base hover:text-gray-300 transition-colors"
+            >
+            Force Monobus
+            </a>
+            <a
+              href="#"
+              className="block text-sm md:text-base hover:text-gray-300 transition-colors"
+            >
+             Force Gurkha
+            </a>
+            <a
+              href="#"
+              className="block text-sm md:text-base hover:text-gray-300 transition-colors"
+            >
+             Force Urbania
             </a>
           </nav>
         </div>
@@ -105,7 +123,7 @@ manager.aayampkr@gmail.com
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/aayamforce/"
+              href="https://www.facebook.com/aAayamforce/"
               className="w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  hover:border-white hover:bg-white/5 transition-all duration-300 group"
               aria-label="Facebook"
             >
@@ -118,7 +136,7 @@ manager.aayampkr@gmail.com
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/aayamforcenepal/?hl=en"
+              href="https://www.instagram.com/aAayamforcenepal/?hl=en"
               className="w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  hover:border-white hover:bg-white/5 transition-all duration-300 group"
               aria-label="Instagram"
             >
@@ -167,7 +185,7 @@ manager.aayampkr@gmail.com
           </a>
         </div>
         <p className="text-xs md:text-sm text-gray-400">
-          © 2022 Ayam Force. All rights reserved.
+          © 2022 Aayam Force. All rights reserved.
         </p>
       </div>
     </footer>

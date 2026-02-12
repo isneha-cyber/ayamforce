@@ -13,6 +13,7 @@ import CarSellingLanding from './Components/CarSellingLanding'
 import WhyChoose from './Components/WhyChoose'
 import Backtotop from './Components/Backtotop'
 import Testimonialcard from './Components/Testimonialcard'
+import Blog from './Components/Blog'
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <Community/>
     <Forward/>
     <Testimonialcard/>
+    <Blog/>
   <CarSellingLanding/>
     <Footer/>
     </>

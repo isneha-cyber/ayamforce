@@ -47,12 +47,12 @@ const WhyChoose = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+    <div id='about' className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <header className="text-center mb-8 sm:mb-12 lg:mb-16 px-2">
           <h2 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight leading-tight sm:leading-snug">
-            Why Choose Ayam Force
+            Why Choose Aayam Force
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-2">
             <span className="font-semibold text-gray-900">Buy vehicles in Nepal</span> with a premium experience, great deals, and hassle-free financing for your next vehicle.
